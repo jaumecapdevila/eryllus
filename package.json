@@ -4,6 +4,8 @@
   "description": "Game project ",
   "main": "index.js",
   "scripts": {
+    "build": "webpack",
+    "build-dev": "webpack --mode=development",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "repository": {
@@ -15,5 +17,9 @@
   "bugs": {
     "url": "https://github.com/jaumecapdevila/eryllus/issues"
   },
-  "homepage": "https://github.com/jaumecapdevila/eryllus#readme"
+  "homepage": "https://github.com/jaumecapdevila/eryllus#readme",
+  "devDependencies": {
+    "webpack": "^5.74.0",
+    "webpack-cli": "^4.10.0"
+  }
 }
